@@ -1,0 +1,31 @@
+body {
+  background-color: #888;
+}
+.wrapper-kalkulator {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#layar {
+  width: 246px;
+  height: 70px;
+  border: none;
+  background-color: #aaaa;
+  font-size: 24px;
+  text-align: end;
+}
+
+.tombol {
+  width: 250px;
+  height: 300px;
+  display: grid;
+  grid-template-areas: "angka angka angka feature";
+}
+
+.tombol button {
+  width: auto;
+  height: auto;
+}
